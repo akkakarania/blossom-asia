@@ -39,7 +39,7 @@ header nav a:hover {
 }
 
 #image-sequence img {
-    width: 80%; /* Sets the width of images to 80% of the container */
+    width: 96%; /* Sets the width of images to 80% of the container */
     margin: 20px 0; /* Adds space between images */
     border: none; /* Removes any border around images */
     box-shadow: none; /* Removes any shadow around images */
@@ -91,18 +91,24 @@ header nav a:hover {
     background-color: #f2f2f2; /* Sets a light grey background color */
     color: #333; /* Sets text color to a dark grey for contrast */
     padding: 30px; /* Adds padding inside the footer */
-    text-align: center; /* Centers the text and content */
+    text-align: left; /* Centers the text and content */
+    padding-left: 10%;
 }
 
 .contact h2 {
     font-size: 22px; /* Sets the font size for the heading */
-    margin: 10px 0; /* Adds margin above and below the heading */
+    margin: 20px 0; /* Adds margin above and below the heading */
 }
 
 .contact p {
-    margin: 5px 0; /* Adds margin above and below paragraphs */
+    margin: 10px 0; /* Adds margin above and below paragraphs */
     font-size: 16px; /* Sets the font size for paragraph text */
 }
+
+.social-links {
+    margin-top: 20px; /* Add space above social links */
+}
+
 
 .social-links a {
     margin: 0 10px; /* Adds horizontal spacing between social media icons */
