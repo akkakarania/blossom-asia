@@ -3,38 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blossom Edutech Foundation</title>
+    <title>Blossom Asia - Home</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Navigation Bar -->
     <header>
-        <div class="container">
-            <h1>Blossom Edutech Foundation</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="programs.html">Programs</a></li>
-                    <li><a href="success.html">Success Stories</a></li>
-                    <li><a href="partners.html">Partners</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-
-                </ul>
-            </nav>
-        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="our-mission.html">Our Mission</a>
+            <a href="our-tech.html">Our Tech</a>
+        </nav>
     </header>
-    <main>
-        <section id="hero" class="container">
-            <h2>Empowering Students for a Brighter Future</h2>
-            <p>Join us to unlock your potential and achieve your dreams with Blossom Edutech Foundation.</p>
-            <a href="programs.html" class="btn">Explore Programs</a>
-        </section>
-    </main>
-    <footer>
-        <div class="container">
-            <p>© 2024 Blossom Edutech Foundation. All rights reserved.</p>
+
+    <!-- Image Sequence Section -->
+    <section id="image-sequence">
+        <img src="images/horizon.jpg" alt="Horizon">
+        <img src="images/discovery.jpg" alt="Discovery">
+        <img src="images/testimonial.jpg" alt="Testimonial">
+        <img src="images/offerings.jpg" alt="Offerings">
+        <img src="images/founders.jpg" alt="Founders">
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <h2>Our Partners</h2>
+        <div class="slideshow-container">
+            <!-- Embed PDF slides -->
+            <iframe class="slide" src="slide1.pdf#toolbar=0" width="100%" height="600px"></iframe>
+            <iframe class="slide" src="slide2.pdf#toolbar=0" width="100%" height="600px" style="display:none;"></iframe>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@blossom-asia.com</p>
+        <p>Phone: +65 9778 1994</p>
+        <p>Address: 7500A BEACH ROAD #04-307, THE PLAZA SINGAPORE (199591)</p>
+        <div class="social-links">
+            <a href="https://wa.me/97781994?text=Hello,%20I%20would%20like%20to%20know%20more%20about%20your%20services!" target="_blank"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
+            <a href="https://www.linkedin.com/in/siyu-dou/" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
         </div>
     </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
