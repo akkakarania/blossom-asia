@@ -1,100 +1,122 @@
+/* General Styles */
+/* This section sets the overall styling for the body of the webpage */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
+    background-color: #FFFFFF; /* Sets the background color to white */
+    margin: 0; /* Removes default margin around the body */
+    padding: 0; /* Removes default padding around the body */
+    font-family: Arial, sans-serif; /* Sets the font family to Arial with a fallback to sans-serif */
+    text-align: center; /* Centers text and content alignment */
 }
 
+/* Navigation Bar */
+/* Styling for the header and navigation links */
 header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
+    background-image: url('background_top.jpg'); /* Adds a background image to the header */
+    background-size: cover; /* Ensures the background image covers the entire header area */
+    padding: 20px; /* Adds padding inside the header for spacing */
+    text-align: center; /* Centers the content within the header */
 }
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
+header nav a {
+    color: white; /* Sets the color of navigation links to white */
+    text-decoration: none; /* Removes the underline from the links */
+    margin: 0 15px; /* Adds horizontal space between each navigation link */
+    font-size: 18px; /* Sets the font size of the links */
+    font-weight: bold; /* Makes the text bold */
 }
 
-header h1 {
-    margin: 0;
+header nav a:hover {
+    text-decoration: underline; /* Adds an underline to links when hovered */
 }
 
-header nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+/* Image Sequence Section */
+/* Styling for the section containing a sequence of images */
+#image-sequence {
+    display: flex; /* Uses flexbox for layout */
+    flex-direction: column; /* Stacks images vertically */
+    align-items: center; /* Centers the images horizontally */
+    padding: 20px 0; /* Adds vertical padding */
 }
 
-header nav ul li {
-    margin-left: 2rem;
+#image-sequence img {
+    width: 90%; /* Sets the width of images to 80% of the container */
+    margin: 20px 0; /* Adds space between images */
+    border: none; /* Removes any border around images */
+    box-shadow: none; /* Removes any shadow around images */
 }
 
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
+/* Slideshow Container */
+/* Styling for the slideshow container in the partners section */
+.slideshow-container {
+    max-width: 90%; /* Ensures the container does not exceed 100% width */
+    position: relative; /* Positions elements relative to the container */
+    margin: auto; /* Centers the container horizontally */
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
+.mySlides {
+    display: none; /* Hides slides by default; will be shown by JavaScript */
 }
 
-main section {
-    margin: 2rem 0;
+.mySlides img {
+    vertical-align: middle; /* Aligns the image vertically in the middle */
+    width: 100%; /* Sets the image to take up 100% of the container width */
 }
 
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
+/* Dots */
+/* Styling for the navigation dots below the slideshow */
+.dot {
+    height: 15px; /* Sets the height of the dots */
+    width: 15px; /* Sets the width of the dots */
+    margin: 0 2px; /* Adds a small margin between dots */
+    background-color: #bbb; /* Sets the default background color of dots */
+    border-radius: 50%; /* Makes the dots circular */
+    display: inline-block; /* Displays dots inline */
+    transition: background-color 0.6s ease; /* Smooth transition for color changes */
 }
 
-footer a {
-    color: #fff;
-    text-decoration: none;
+.active {
+    background-color: #717171; /* Changes the color of the active dot */
 }
 
-#hero {
-    background: url('hero-image.jpg') no-repeat center center/cover;
-    color: #fff;
-    text-align: center;
-    padding: 4rem 2rem;
+/* Styling for the Our Mission section paragraph */
+#our-mission .mission-text {
+    font-size: 18px; /* Increase the font size */
+    line-height: 1.6; /* Adjust line height for better readability */
+    margin: 20px 0; /* Add margin for spacing */
 }
 
-#hero h2 {
-    font-size: 2.5rem;
+/* Contact Section */
+/* Styling for the footer containing contact information */
+.contact {
+    background-color: #f2f2f2; /* Sets a light grey background color */
+    color: #333; /* Sets text color to a dark grey for contrast */
+    padding: 30px; /* Adds padding inside the footer */
+    text-align: left; /* Centers the text and content */
+    padding-left: 10%;
 }
 
-#hero p {
-    font-size: 1.2rem;
+.contact h2 {
+    font-size: 22px; /* Sets the font size for the heading */
+    margin: 20px 0; /* Adds margin above and below the heading */
 }
 
-.btn {
-    display: inline-block;
-    padding: 0.5rem 1rem;
-    margin-top: 1rem;
-    background: #e67e22;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+.contact p {
+    margin: 10px 0; /* Adds margin above and below paragraphs */
+    font-size: 16px; /* Sets the font size for paragraph text */
 }
 
-.highlight {
-    margin: 2rem 0;
+.social-links {
+    margin-top: 20px; /* Add space above social links */
 }
 
-.highlight h3 {
-    margin-bottom: 1rem;
+
+.social-links a {
+    margin: 0 10px; /* Adds horizontal spacing between social media icons */
+    display: inline-block; /* Displays icons inline */
 }
 
-.highlight ul {
-    list-style-type: disc;
-    padding-left: 20px;
+.social-links img {
+    width: 24px; /* Sets the width of the social media icons */
+    height: 24px; /* Sets the height of the social media icons */
+    vertical-align: middle; /* Aligns the icons vertically in the middle */
 }
