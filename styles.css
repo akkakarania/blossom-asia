@@ -80,7 +80,7 @@ header nav a:hover {
 
 /* Styling for the Our Mission section paragraph */
 #our-mission .mission-text {
-    font-size: 18px; /* Increase the font size */
+    font-size: 22px; /* Increase the font size */
     line-height: 1.6; /* Adjust line height for better readability */
     margin: 20px 0; /* Add margin for spacing */
 }
@@ -96,7 +96,7 @@ header nav a:hover {
 }
 
 .contact h2 {
-    font-size: 22px; /* Sets the font size for the heading */
+    font-size: 24px; /* Sets the font size for the heading */
     margin: 20px 0; /* Adds margin above and below the heading */
 }
 
