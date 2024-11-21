@@ -21,7 +21,7 @@ header nav a {
     color: white; /* Sets the color of navigation links to white */
     text-decoration: none; /* Removes the underline from the links */
     margin: 0 15px; /* Adds horizontal space between each navigation link */
-    font-size: 18px; /* Sets the font size of the links */
+    font-size: 20px; /* Sets the font size of the links */
     font-weight: bold; /* Makes the text bold */
 }
 
